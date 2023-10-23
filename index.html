@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="personal-profile.png"/>
+    <title>CV</title>
+    <script src="flipping.js"></script>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheets" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+</head>
+<body>
+    <div class="cover">
+        <div class="summary">
+        <table>
+           <caption><h3>summary</h3></caption>
+           <tr>
+               <td>Full Name: Aleksandr Poluianov</td> <td>DoB: 03/13/1982</td>
+               <td rowspan="2">
+                    <a href='https://github.com/Coder1382'>GitHub</a><br/>
+                     <!--<a href='https://www.linkedin.com/in/researcher1382/'>LinkedIn</a><br/>-->
+                    <a href="https://www.hackerrank.com/mailbox112000">HackerRank</a>
+                </td>
+                <td class='photo' rowspan="3"><img class='foto' src='foto.jpg'/></td>
+           </tr>
+           <tr>
+               <td>Citizenship: the Russian Federation</td> <td>Email: superbox112000@gmail.com</td>
+           </tr>
+           <tr>
+                <td colspan="3" class="desc">
+                    For recent years, I have been learning a number of programming languages on my own,
+                    and by the way I have been freelancing in the following areas: written translations from English to Russian
+                    and vice versa; data analysis, web design, content management.
+                    IT tools that I make use of are as follows: HTML, CSS, JavaScript, Python, C/C++, Google Sheets,
+                    SQL, Tilda/Figma, Bitrix24 etc.
+                </td>
+           </tr>
+        </table>
+        </div>
+        <div class="page">
+            <table class="educ">
+                <caption><h3>education</h3></caption>
+                <tr>
+                    <td>Institution</td> <td>Qualification</td>
+                </tr>
+                <tr>
+                    <td>Kazan State University</td> <td>English Language Translator</td>
+                </tr>
+                <tr>
+                    <td>Kazan State University</td> <td>Geologist</td>
+                </tr>
+                <tr>
+                    <td>Almetyevsk Petroleum College</td> <td>Oil Equipment Mechanician</td>
+                </tr>
+            </table>
+            <table class="educ">
+                <caption><h3>vocational courses</h3></caption>
+                <tr>
+                    <td>Provider</td> <td>Course</td>
+                </tr>
+                <tr>
+                    <td>Schlumberger Middle-East Learning Center</td> <td>Advanced Course on Geonext</td>
+                </tr>
+                <tr>
+                    <td>Baku Training Center</td> <td>BOSIET</td>
+                </tr>
+                <tr>
+                    <td>Sakhalin Technician Training Center</td> <td>HUET</td>
+                </tr>
+                <tr>
+                    <td>Schlumberger Middle-East Learning Center</td> <td>Field Specilalist</td>
+                </tr>
+            </table>
+        </div>
+        <div class="page hide">
+            <table class="work">
+                <caption><h3>work record</h3></caption>
+                <tr>
+                    <td>Company</td> <td>Location</td> <td>Position</td> <td>Overview</td>
+                </tr>
+                <tr>
+                    <td>
+                        Geoservice<br><span class="line">-</span><br>TNG-Group
+                    </td>
+                    <td>
+                        Sakhalin<br><span class="line">-</span><br>Caspian Sea<br><span class="line">-</span><br>Irkutsk Region
+                    </td>
+                    <td>Field Specilalist</td>
+                    <td class='desc'>
+                        Operate a computerized mudlogging system to timely detect formation fluid kicks and/or mud losses
+                        during borehole drilling and pipe trips. Collect and describe drill cuttings. Maintain gas analyzers,
+                        sensors, probes. Rig up and rig down the mudlogging system during relocation
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        RDS
+                    </td>
+                    <td>
+                        Orenburg Region<br><span class="line">-</span><br>Perm Region
+                    </td>
+                    <td>Field Operator</td>
+                    <td class="desc">
+                        Operate a truck-based coil-tubing unit to make 100-meter-long channels in depleted reservoirs
+                        to increase their recovery rate. Such channels were made by a water jet injected through coli-tubing
+                        and a hose under a high pressure build up by high-performance pumps
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tatoilgas
+                    </td>
+                    <td>
+                        Tatartstan
+                    </td>
+                    <td>OGPO</td>
+                    <td class="desc">
+                        Daily check group metering stations, pumping units and pipelines, take instrumentation readings.
+                        Weekly sample well-bore fluids. Timely replace worn glands and drive belts of pumping units
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="page crtf hide">
+            <a href='Programming_Basics.png'
+            target='_blank'><img class="slide" target="__blank" src='https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996'/></a>
+            <a href="Programming_Foundations.png"
+            target="_blank"><img class="slide" target="__blank" src="https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996"/></a>
+            <a href="Caree_skills.png"><img class="slide" target="__blank" src="https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996"/></a>
+            <a href="certificatePython-1.png"><img class="slide" target="__blank" src="https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996"/></a>
+        </div>
+        <div class="form_pc page hide">
+            <p>форма обратной связи</p>
+            <p class="sent hide"></p>
+            <form id="form_pc" class="hide">
+                <input title="Напишите имя на русском или на английском" type="text" name="name" id="name_pc" placeholder="name (Russian or English)" required maxlength="30"/>
+                <input title="Номер должен быть в формате +12345678909" type="tel" name="phone" id="phone_pc" placeholder="phone (optional field)" maxlength="15"/>
+                <input type="email" name="email" id="email_pc" placeholder="email" required maxlength="25"/>
+                <textarea name="comment" id="area_pc" cols="45" rows="7" placeholder="your comment (optional)"></textarea>
+                <button type="submit" id="send_pc" class="send"><img src="telega.jpg"/></button>
+            </form>
+        </div>
+        <span id="right" onclick="flip('right')"></span>
+        <span id="left" class="hide" onclick="flip('left')"></span>
+    </div>
+
+    <div class="mobile">
+        <table class='summary'>
+           <caption><h3>summary</h3></caption>
+           <tr>
+               <td>Name: Aleksandr Poluianov</td> <td>DoB: 03/13/1982</td>
+                <td class='photo' rowspan="2"><img class='foto' src='foto.jpg'/></td>
+           </tr>
+           <tr>
+               <td>Email: superbox112000@gmail.com</td> <td>Citizenship: Russia</td>
+           </tr>
+           <tr>
+                <td id="overview" colspan="3" class="desc">
+                    For recent years, I have been learning a number of programming languages on my own,
+                    and by the way I have been freelancing in the following areas: written translations from English to Russian
+                    and vice versa; data analysis, web design, content management.
+                    IT tools that I make use of are as follows: HTML, CSS, JavaScript, Python, C/C++, Google Sheets,
+                    SQL, Tilda/Figma, Bitrix24 etc.
+                </td>
+           </tr>
+        </table>
+        <div class="sheet">
+            <table class="educ">
+                <caption><h3>education</h3></caption>
+                <tr>
+                    <td>Institution</td> <td>Qualification</td>
+                </tr>
+                <tr>
+                    <td>Kazan State University</td> <td>English Language Translator</td>
+                </tr>
+                <tr>
+                    <td>Kazan State University</td> <td>Geologist</td>
+                </tr>
+                <tr>
+                    <td>Almetyevsk Petroleum College</td> <td>Oil Equipment Mechanician</td>
+                </tr>
+            </table>
+            <table class="educ">
+                <caption><h3>vocational courses</h3></caption>
+                <tr>
+                    <td>Provider</td> <td>Course</td>
+                </tr>
+                <tr>
+                    <td>Schlumberger ME Learning Center</td> <td>Advanced Course on Geonext</td>
+                </tr>
+                <tr>
+                    <td>Baku Training Center</td> <td>BOSIET</td>
+                </tr>
+                <tr>
+                    <td>Sakhalin Technician Training Center</td> <td>HUET</td>
+                </tr>
+                <tr>
+                    <td>Schlumberger ME Learning Center</td> <td>Field Specilalist</td>
+                </tr>
+            </table>
+        </div>
+        <div class="sheet hide">
+            <table class="work">
+                <caption><h3>work record</h3></caption>
+                <tr>
+                    <td>Company</td> <td>Location</td> <td>Position</td> <td>Overview</td>
+                </tr>
+                <tr>
+                    <td>
+                        Geoservice<br><span class="line">-</span><br>TNG-Group
+                    </td>
+                    <td>
+                        Sakhalin<br><span class="line">-</span><br>Caspian Sea<br><span class="line">-</span><br>Irkutsk Region
+                    </td>
+                    <td>Field Specilalist</td>
+                    <td class='desc'>
+                        Operate a computerized mudlogging system to timely detect formation fluid kicks and/or mud losses
+                        during borehole drilling and pipe trips. Collect and describe drill cuttings. Maintain gas analyzers,
+                        sensors, probes. Rig up and rig down the mudlogging system during relocation
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        RDS
+                    </td>
+                    <td>
+                        Orenburg Region<br><span class="line">-</span><br>Perm Region
+                    </td>
+                    <td>Field Operator</td>
+                    <td class="desc">
+                        Operate a truck-based coil-tubing unit to make 100-meter-long channels in depleted reservoirs
+                        to increase their recovery rate. Such channels were made by a water jet injected through coli-tubing
+                        and a hose under a high pressure build up by high-performance pumps
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tatoilgas
+                    </td>
+                    <td>
+                        Tatartstan
+                    </td>
+                    <td>OGPO</td>
+                    <td class="desc">
+                        Daily check group metering stations, pumping units and pipelines, take instrumentation readings.
+                        Weekly sample well-bore fluids. Timely replace worn glands and drive belts of pumping units
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="sheet crtf hide">
+            <a href='Programming_Basics.png'
+            target='_blank'><img class="slide" target="__blank" src='https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996'/></a>
+            <a href="Programming_Foundations.png"
+            target="_blank"><img class="slide" target="__blank" src="https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996"/></a>
+            <a href="Caree_skills.png"><img class="slide" target="__blank" src="https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996"/></a>
+            <a href="certificatePython-1.png"><img class="slide" target="__blank" src="https://img.freepik.com/premium-psd/classic-simple-wave-certificate-design-template_505928-403.jpg?w=996"/></a>
+        </div>
+        <div class="form_mobile sheet hide">
+            <p>форма обратной связи</p>
+            <p class="sent hide"></p>
+            <form id="form_mobile" class="hide">
+                <input title="Имя на русском или английском" type="text" name="name" id="name_mobile" placeholder="name (Russian or English)" required maxlength="30"/>
+                <input title="Формат: +12345678909" name="phone" type="tel" id="phone_mobile" placeholder="phone (optional)" maxlength="15"/>
+                <input type="email" name="email" id="email_mobile" placeholder="email" required maxlength="25"/>
+                <textarea name="comment" id="area_mobile" cols="45" rows="7" placeholder="your comment"></textarea>
+                <button type="submit" id="send_mobile" class="send"><img src="telega.jpg"/></button>
+            </form>
+        </div>
+        <span id="down" onclick="go('down')"></span>
+        <span id="up" class="hide" onclick="go('up')"></span>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script>
+    const scriptURL='https://script.google.com/macros/s/AKfycbxED0zSig4CoyyYD-exeuril_d3O80o3KpP_uAhPJ0pXK8TuTI8M1Aqscba53v5knk/exec';
+    /*let tel=window.intlTelInput(document.querySelector("#phone_pc"),{
+        utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });*/
+    let name; let phone; let email; let comment;
+    form_pc=document.getElementById('form_pc');
+    form_mobile=document.getElementById('form_mobile');
+    form_pc.addEventListener('submit',e=>{
+        e.preventDefault();
+        document.getElementById('name_pc').style.borderColor='grey';
+        document.getElementById('phone_pc').style.borderColor='grey';
+        document.getElementById('email_pc').style.borderColor='grey';
+        name=document.getElementById('name_pc').value;
+        phone=document.getElementById('phone_pc').value;
+        email=document.getElementById('email_pc').value;
+        comment=document.getElementById('area_pc').value;
+        //let number=phoneInput.getNumber();
+        if(name.match(/^[a-zA-Zа-яА-Я\s]{5,}$/)===null){
+            document.getElementById('name_pc').style.borderColor='red';
+            document.getElementById('name_pc').value='';
+            return;
+        }
+        if(phone.match(/^[0-9]{0,}$/)===null){
+            document.getElementById('phone_pc').style.borderColor='red';
+            document.getElementById('phone_pc').value='';
+            return;
+        }
+        if(email.match(/^[a-zA-Z0-9!#$%&'*+-/=?^_`{|}~]{1,}[@]{1}[a-z]{1,}[\.]{1}[a-z]{1,}$/)===null){
+            document.getElementById('email_pc').style.borderColor='red';
+            document.getElementById('email_pc').value='';
+            return;
+        }
+        fetch(scriptURL, { method: 'POST', body: new FormData(form_pc)})
+            .then(response => {
+                document.getElementsByClassName('sent')[0].innerHTML='форма успешно отправлена';
+                document.getElementsByClassName('sent')[0].style.color='green';
+                document.getElementsByClassName('sent')[0].classList.remove('hide');
+            })
+            .catch(error => {
+                document.getElementsByClassName('sent')[0].innerHTML='что-то пошло не так. повторите отправку';
+                document.getElementsByClassName('sent')[0].style.color='red';
+                document.getElementsByClassName('sent')[0].classList.remove('hide');
+            })
+
+    });
+    form_mobile.addEventListener('submit',e=>{
+        e.preventDefault();
+        document.getElementById('name_mobile').style.borderColor='grey';
+        document.getElementById('phone_mobile').style.borderColor='grey';
+        document.getElementById('email_mobile').style.borderColor='grey';
+        name=document.getElementById('name_mobile').value;
+        phone=document.getElementById('phone_mobile').value;
+        email=document.getElementById('email_mobile').value;
+        comment=document.getElementById('area_mobile').value;
+        //let number=phoneInput.getNumber();
+        if(name.match(/^[a-zA-Zа-яА-Я\s]{5,}$/)===null){
+            document.getElementById('name_mobile').style.borderColor='red';
+            document.getElementById('name_mobile').value='';
+            return;
+        }
+        if(phone.match(/^[0-9]{0,}$/)===null){
+            document.getElementById('phone_mobile').style.borderColor='red';
+            document.getElementById('phone_mobile').value='';
+            return;
+        }
+        if(email.match(/^[a-zA-Z0-9!#$%&'*+-/=?^_`{|}~]{1,}[@]{1}[a-z]{1,}[\.]{1}[a-z]{1,}$/)===null){
+            document.getElementById('email_mobile').style.borderColor='red';
+            document.getElementById('email_mobile').value='';
+            return;
+        }
+        fetch(scriptURL, { method: 'POST', body: new FormData(form_mobile)})
+            .then(response => {
+                document.getElementsByClassName('sent')[1].innerHTML='форма успешно отправлена';
+                document.getElementsByClassName('sent')[1].style.color='green';
+                document.getElementsByClassName('sent')[1].classList.remove('hide');
+            })
+            .catch(error => {
+                document.getElementsByClassName('sent')[1].innerHTML='что-то пошло не так. повторите отправку';
+                document.getElementsByClassName('sent')[1].style.color='red';
+                document.getElementsByClassName('sent')[1].classList.remove('hide');
+            })
+    });
+</script>
+</html>
