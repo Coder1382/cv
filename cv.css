@@ -139,6 +139,11 @@ transform: rotateZ(45deg);
   text-align: center;
   padding-top: 3%;
 }
+.crtf a img{
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
 .slide{
   width: 15vw;
   height: auto;
